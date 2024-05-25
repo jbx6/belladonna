@@ -66,9 +66,6 @@ void readBME280() {
   display.setTextAlignment(TEXT_ALIGN_LEFT);
 
   display.drawString(0, 0, data);
-
-
-
 }
 
 void drawText() {
@@ -119,5 +116,9 @@ void loop() {
   // Write the buffer to the display
   display.display();
 
-  delay(2000);
+  // when logging data to screen, use 2000 delay (2 seconds)
+  //delay(2000)
+
+  // when sending data to server, use 60000 delay (60 seconds)
+  delay(60000);
 }
