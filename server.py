@@ -12,8 +12,8 @@ with socket.socket(socket.AF_INET, socket.SOCK_STREAM) as server_socket:
 
     while True:
         conn, addr = server_socket.accept()
+        print(f"Connected by {addr}")
         with conn:
-            print(f"Connected by {addr}")
             with open("data.csv", "a") as data_file:
                 while True:
                     data = conn.recv(1024)
