@@ -1,3 +1,4 @@
+#include "config.h"
 #include <WiFi.h>
 #include <Wire.h>
 #include "HT_SSD1306Wire.h"
