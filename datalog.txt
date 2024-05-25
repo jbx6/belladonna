@@ -1,0 +1,11 @@
+Temperature: 16.88 °C
+Humidity: 51.93 %
+Pressure: 999.83 hPa
+Temperature: 16.77 °C
+Humidity: 53.30 %
+Pressure: 999.86 hPa
+Temperature: 16.72 °C
+Humidity: 55.91 %
+Pressure: 999.85 hPa
+16.72,53.78,999.792024-05-25 05:45:14,16.80,55.54,999.79
+2024-05-25 05:46:01,16.81,53.64,999.75
