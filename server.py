@@ -1,8 +1,9 @@
 import datetime
 import socket
+import config
 
-HOST = "192.168.2.2"
-PORT = 8080
+HOST = config.HOST
+PORT = config.PORT
 
 with socket.socket(socket.AF_INET, socket.SOCK_STREAM) as server_socket:
     server_socket.bind((HOST, PORT))

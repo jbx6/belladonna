@@ -5,13 +5,14 @@
 #include <Adafruit_Sensor.h>
 #include <Adafruit_BME280.h>
 
+// USE VARIABLES FROM CONFIG.H
 // WiFi creds
-const char* ssid = "helloworld";
-const char* password = "aspirin420";
+// const char* ssid = ssid;
+// const char* password = password;
 
 // Server IP and PORT
-const char* serverIP = "192.168.2.2";
-const int serverPort = 8080;
+// const char* serverIP = serverIP;
+// const int serverPort = serverPort;
 
 // Create an instance of the BME280 sensor
 Adafruit_BME280 bme;
