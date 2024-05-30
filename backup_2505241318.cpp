@@ -60,7 +60,6 @@ void readBME280() {
 
   // added
   if (client.connect(serverIP, serverPort)) {
-    // Serial.print("Connected to server: (" + String(serverIP) + ") on PORT " + String(serverPort) + ")");
     client.print(dataToSend);
     client.stop();
   }
@@ -120,7 +119,7 @@ void loop() {
   display.display();
 
   // when logging data to screen, use 2000 delay (2 seconds)
-  // delay(2000);
+  //delay(2000)
 
   // when sending data to server, use 60000 delay (60 seconds)
   delay(60000);
