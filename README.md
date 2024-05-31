@@ -87,5 +87,4 @@ event_datetime = pd.to_datetime('2024-05-27 16:22:12')
 
 ## Conclusion
 
-Written by GPT [ChatGPT](https://openai.com/chatgpt/)
-
+This README was written by [ChatGPT](https://openai.com/chatgpt/) (with some specific prompting)...
