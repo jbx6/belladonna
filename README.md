@@ -87,4 +87,5 @@ event_datetime = pd.to_datetime('2024-05-27 16:22:12')
 
 ## Conclusion
 
-By following these instructions, you should be able to visualize your weather data using the `visualise.py` script. Feel free to customize the script to suit your needs and explore the data further.
+Written by GPT [ChatGPT](https://openai.com/chatgpt/)
+
