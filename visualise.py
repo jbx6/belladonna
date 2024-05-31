@@ -11,10 +11,8 @@ data['datetime'] = pd.to_datetime(data['date'] + ' ' + data['time'])
 data.set_index('datetime', inplace=True)
 
 # Specify the datetime for the event (e.g., '2024-05-25 06:10:32')
-event_datetime = pd.to_datetime('2024-05-27 16:22:12')
-event_datetime_2 = pd.to_datetime('2024-05-25 07:02:37')
-event_datetime_3 = pd.to_datetime('2024-05-25 07:21:59')
-event_datetime_4 = pd.to_datetime('2024-05-25 08:09:00')
+# event_datetime = pd.to_datetime('2024-05-27 16:22:12')
+
 
 # Create a figure and axis for plotting
 fig, ax1 = plt.subplots(figsize=(14, 8))
