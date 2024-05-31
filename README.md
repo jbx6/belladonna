@@ -16,10 +16,24 @@ If you do not have Python installed, you can download it from [python.org](https
 
 ## Installation
 
-To install the necessary Python libraries, follow these steps:
+### Clone the Repository
 
 1. Open your terminal or command prompt.
-2. Install the required libraries by running the following commands:
+2. Clone the repository from GitHub:
+
+```sh
+git clone https://github.com/jbx6/belladonna.git
+```
+
+3. Navigate to the cloned repository directory:
+
+```sh
+cd belladonna
+```
+
+### Install Dependencies
+
+To install the necessary Python libraries, run the following command:
 
 ```sh
 pip install pandas matplotlib
@@ -35,7 +49,7 @@ Once you have the prerequisites installed, follow these steps to run the `visual
 4. Run the script by executing the following command:
 
 ```sh
-python visualise.py
+python3 visualise.py
 ```
 
 This will generate a plot displaying temperature, humidity, and pressure data over time.
