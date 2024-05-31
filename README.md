@@ -4,7 +4,7 @@
 
 Belladonna is a project designed to collect weather data (...more in the future). This README will guide you through the steps needed to run the `visualise.py` script, which plots temperature, humidity, and pressure data from a CSV file.
 
->I am specifically using a CSV file because I do not yet understand how to interact with a database, though I am trying. In my opinion, learning to write-to, and read-from a CSV might be a good 'stepping-stone' on my way to learning databases.
+>I am specifically using a CSV file because I do not yet understand how to interact with a database, though I am trying. In my opinion, learning to write-to, and read-from a CSV might be a good 'stepping-stone' on my way to learning databases. When I say 'database', I am referring to something like MongoDB, which I frequently-note being used, discussed, referenced, etc. 
 
 ## Prerequisites
 
