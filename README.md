@@ -2,7 +2,7 @@
 
 ## Overview
 
-Belladonna is a project designed to visualize weather data. This README will guide you through the steps needed to run the `visualise.py` script, which plots temperature, humidity, and pressure data from a CSV file.
+Belladonna is a project designed to collect weather data (...more in the future). This README will guide you through the steps needed to run the `visualise.py` script, which plots temperature, humidity, and pressure data from a CSV file.
 
 ## Prerequisites
 
